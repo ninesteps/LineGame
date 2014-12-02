@@ -27,5 +27,27 @@ public class Circle {
 		
 		position.add(velocity.cpy().scl(delta));
 		}
+	
+
+
+	public void onClick() {
+		velocity.y = -140;
+	}
+	
+	public float getX() {
+		return position.x;
 	}
 
+	public float getY() {
+		return position.y;
+	}
+	
+	public float getWidth() {
+		return width;
+	}
+	
+	public float getHeight() {
+		return height;
+	}
+	
+}
