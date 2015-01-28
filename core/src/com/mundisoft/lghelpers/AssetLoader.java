@@ -12,7 +12,7 @@ public class AssetLoader {
 
     public static void load() {
 
-        texture = new Texture(Gdx.files.internal("data/assets.png"));
+        texture = new Texture(Gdx.files.internal("data/texture.png"));
         texture.setFilter(TextureFilter.Nearest, TextureFilter.Nearest);
 
 
