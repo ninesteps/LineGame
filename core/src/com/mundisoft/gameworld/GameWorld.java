@@ -8,7 +8,7 @@ public class GameWorld {
 	private Circle circle;
 	
 	public GameWorld(int midPointY){
-		circle = new Circle(33, midPointY -5, 7, 28);
+		circle = new Circle(33, midPointY -5, 16, 64);
 	}
 	
 	public void update(float delta) {

@@ -16,10 +16,10 @@ public class AssetLoader {
         texture.setFilter(TextureFilter.Nearest, TextureFilter.Nearest);
 
 
-        circleLeft = new TextureRegion(texture, 22, 8, 7, 28);
+        circleLeft = new TextureRegion(texture, 3, 3, 16, 64);
         circleLeft.flip(false, true);
 
-        circleRight = new TextureRegion(texture, 31, 8, 7, 28);
+        circleRight = new TextureRegion(texture, 19, 3, 16, 64);
         circleRight.flip(false, true);
 
         line = new TextureRegion(texture, 7, 6, 1, 3);
